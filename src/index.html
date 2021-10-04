@@ -10,7 +10,19 @@
 
 <body>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <h1>Vanilla JavaScript App Test 1</h1>
+    <form action="database.php" method="post">
+      <p>
+          <label for="KSU Student ID">KSU Student ID (9-digit):</label>
+          <input type="text" name="KSU_Student_ID" id="KSUStudentID">
+      </p>
+      
+      <p>
+          <label for="numberGrade">Grade:</label>
+          <input type="number" name="grade" id="numberGrade" min="0" max="100">
+      </p>
+      <input type="submit" value="Submit">
+  </form>
   </main>
 </body>
 
