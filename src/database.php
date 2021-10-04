@@ -2,7 +2,7 @@
 $servername = "mysqlserverksu123.database.windows.net";
 $username = "azureuser";
 $password = "sample!23";
-$dbname = "mySampleDatabse";
+$dbname = "mySampleDatabase";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
